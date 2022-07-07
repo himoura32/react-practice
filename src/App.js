@@ -54,7 +54,7 @@ function App() {
       </Modal> */}
 
       {showModal && (
-        <Modal handleClose={handleClose}>
+        <Modal handleClose={handleClose} isSalesModal={false}>
           <h2>Terms and Conditions</h2>
           <p>
             these are the terms and conditions of the product. This is written
